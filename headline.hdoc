@@ -1,0 +1,7 @@
+\simple(text)
+  h1 ??text
+  hr
+\
+\colored(text, color)
+  h1[style=color: ??color] text
+\

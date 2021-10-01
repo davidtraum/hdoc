@@ -1,0 +1,27 @@
+.centered-content {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media print {
+    .centered-content {
+        display: block;
+    }
+}
+
+img {
+    max-width: 95vw;
+}
+
+thead th {
+    border-bottom: 1px solid gray;
+}
+
+.flex {
+    display: flex;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@traumd/htmls",
+  "version": "0.0.1",
+  "bin": {
+    "htmls": "hdoc.js"
+  },
+  "main": "hdoc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
