@@ -2,18 +2,25 @@
 
 ### Elements
 
-hr => Adds a horizontal line
-h1 Hello World => Creates a h1 headline saying hello world
-h1.red.shadow Hello World => Creates a headline saying hello world with "red" and "shadow" CSS-Class
-h1.red [title=My Headline, id=headline] Hello World => Creates a headline saying hello world with "red" CSS-Class and title + id attributes.
-
+* `hr`
+  * Adds a horizontal line
+* `h1 Hello World`
+  * Creates a h1 headline saying hello world
+* `h1.red.shadow Hello World` 
+  * Creates a headline saying hello world with "red" and "shadow" CSS-Class
+* `h1.red [title=My Headline, id=headline] Hello World`
+  * Creates a headline saying hello world with "red" CSS-Class and title + id attributes.
+  * 
 #### Shortcuts
 
-.red => No tag name creates a div with css class red
-..red => No tag name + two dots creates a span with css class red
+* `.red`
+  * No tag name creates a div with css class red
+* `..red`
+  * No tag name + two dots creates a span with css class red
 
 #### Tree
 
+`
 h1 Hello World
 hr
 ul
@@ -22,6 +29,7 @@ ul
   ul
     li Sub-List
 p No list
+`
 
 => Elements with more indent will be children of the element before with lower indentation.
 
