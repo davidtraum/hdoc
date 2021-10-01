@@ -20,7 +20,7 @@
 
 #### Tree
 
-`
+```
 h1 Hello World
 hr
 ul
@@ -29,7 +29,7 @@ ul
   ul
     li Sub-List
 p No list
-`
+```
 
 => Elements with more indent will be children of the element before with lower indentation.
 
