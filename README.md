@@ -35,10 +35,12 @@ p No list
 
 #### Text
 
+```
 div
   This text is included
   in the div
   with multiple lines
+```
 
 => Text that does not start with a tag-name will be interpreted as plain text.
 
@@ -46,35 +48,36 @@ div
 ### External files
 
 #### Add CSS
-\# path/to/myfile.css
+
+`\# path/to/myfile.css`
 
 => Imports a css file
 
 #### Add JavaScript
-\> path/to/myfile.js
+`\> path/to/myfile.js`
 
 => Imports a js file
 
 #### Include hdoc-Files
-& /path/to/myfile.hdoc
+`& /path/to/myfile.hdoc`
 or
-& /path/to/myfile
+`& /path/to/myfile`
 
 => Inserts content of a hdoc file.
 
 ### Libraries
 Libraries a predifined collections of additional files.
 
-@ library-name
+`@ library-name`
 
 => Adds a library.
 
 #### Available libraries:
-@bootstrap | Default bootstrap
-@litera | BootSwatch Litera theme (Modern look)
-@darkly | BootSwatch Darkly theme (Dark look)
-@sketchy | BootSwatch Sketchy theme (Sketchy look)
-@lux | BootSwatch Lux theme (Modern look)
+* @bootstrap | Default bootstrap
+* @litera | BootSwatch Litera theme (Modern look)
+* @darkly | BootSwatch Darkly theme (Dark look)
+* @sketchy | BootSwatch Sketchy theme (Sketchy look)
+* @lux | BootSwatch Lux theme (Modern look)
 
 ### Settings
 Settings can modify the document and the build process.
@@ -85,7 +88,7 @@ $setting = value
 #### Available settings:
 
 |Setting|Description|Values|Default|
-|-|-|-|
+|-|-|-|-|
 |$verbose|Enables detailed log messages when building the document|true / false|false|
 |$centered|Sets if the document content is centered on big screens|true / false|true|
 |$title|The title of the HTML-Document. Appears in the browser-tab.|Any text|Document|
